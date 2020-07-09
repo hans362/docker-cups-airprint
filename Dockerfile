@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
 
 # This will use port 631
 EXPOSE 631
+EXPOSE 5353/udp
 
 # We want a mount for these
 VOLUME /config
